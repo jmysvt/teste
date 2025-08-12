@@ -1,0 +1,62 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    background-color:  rgba(245, 190, 165, 0.527);
+}
+
+header{
+    background-color: rgb(187, 131, 105);
+    padding: 1px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: rgb(184, 123, 95);
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.name{
+    display: flex;
+    padding-left: 16px;
+
+}
+
+.naame{
+    padding-left: 25px;
+}
+
+.sobremim {
+    padding-left: 40px;
+    display: flex;
+}
+.eula {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+.eula img {
+    border-radius: 50%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: rgb(184, 123, 95);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
